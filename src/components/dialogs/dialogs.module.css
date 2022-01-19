@@ -1,0 +1,29 @@
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.dialogsItems {
+    padding: 10px;
+}
+.dialogsItems .active {
+    color: green;  
+}
+.messages {
+    padding: 10px;
+    display: grid;
+}
+.messages .message {
+    width: fit-content;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.message:nth-child(even) {
+    justify-self: right;
+}
+
+.avatar {
+    width: 45px;
+}

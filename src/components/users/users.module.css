@@ -1,0 +1,33 @@
+.userWrapper {
+    display: grid;
+    grid-template-columns: 100px 20px 1fr;
+    padding: 10px;
+}
+.userAvatar {
+    display: grid;
+    justify-items: center;
+}
+.userPhoto {
+    width: 100px
+}
+.userProfile{
+    display: grid;
+    grid-template-columns:  1fr max-content;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 15px; 
+    
+}
+.userInfo{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.userStatus {
+    align-self: end;
+}
+.userFrom {
+    display: grid;
+    justify-items: end;
+    grid-template-rows: max-content;
+}
+

@@ -1,0 +1,22 @@
+.pages{
+    text-align: center;
+}
+.selectedPage {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 5px;
+}
+.notSelectedPage {
+    padding: 3px;
+}
+
+.button_arrow {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: none;
+    border: none;
+}
+.button_arrow img {
+     width: 20px;
+ }

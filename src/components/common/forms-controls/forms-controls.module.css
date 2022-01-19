@@ -1,0 +1,19 @@
+.error input, 
+.error textarea {
+    border: solid red 2px ;
+}
+
+span.error{
+    color: red;
+}
+
+.form_summary_error {
+    border: solid red 2px ;
+    padding: 5px;
+    color: red;
+}
+
+
+/* div .formControl.error  {
+    color: red ;
+} */
