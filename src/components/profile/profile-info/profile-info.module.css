@@ -14,6 +14,18 @@
     background-size: cover;
     background-position: center;
 }
-.fullName {
-    font-weight: 700;
+.contact {
+    padding-left: 10px;
+}
+
+.error textarea {
+    border: solid red 2px ;
+}
+span.error{
+    color: red;
+}
+.form_summary_error {
+    border: solid red 2px ;
+    padding: 5px;
+    color: red;
 }

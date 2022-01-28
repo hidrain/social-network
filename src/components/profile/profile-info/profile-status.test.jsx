@@ -1,8 +1,6 @@
-import React from 'react'
 import { create } from 'react-test-renderer';
 import { ProfileStatus } from './profile-status';
 
-//тест классовой компоненты
 describe('ProfileStatus component', () => {
     test('status from props shoul be in the state', () => {
         const component = create(<ProfileStatus status='some status' />)
