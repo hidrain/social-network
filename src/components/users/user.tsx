@@ -25,10 +25,10 @@ export const User: React.FC<PropsType> = ({ user, followingInProgress, unfollow,
                 <div className={style.userButton}>
                     {user.followed
                         ? <button disabled={followingInProgress.some(id => id === user.id)}
-                            onClick={() => { unfollow(user.id) }}>Unfollow</button> //unfollow потому что в контейнерной компоненте мы создали follow
+                            onClick={() => { follow(user.id) }}>Unfollow</button> //unfollow потому что в контейнерной компоненте мы создали follow
 
                         : <button disabled={followingInProgress.some(id => id === user.id)}
-                            onClick={() => { follow(user.id) }}>Follow</button>}
+                            onClick={() => { unfollow(user.id) }}>Follow</button>}
                 </div>
             </div>
 

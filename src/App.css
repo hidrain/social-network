@@ -1,16 +1,6 @@
-.app-wrapper {
+.logo {
   display: grid;
-  min-height: 100%;
-  grid-template-areas: 
-  "h h"
-  "n c";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: minmax(max-content, 200px) 1fr;
-  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 15px;
 }
-
-.app-wrapper-content {
-    grid-area: c;
-  }
-
-
